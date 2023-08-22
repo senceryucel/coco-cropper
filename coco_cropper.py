@@ -2,7 +2,7 @@ __author__ = 'senceryucel'
 from PIL import Image
 import cv2
 import json
-from os import path
+from os import path, mkdir
 
 
 class CocoCropper:
@@ -20,7 +20,8 @@ class CocoCropper:
                 print(f"Output path does not exist. Do you want to create it to '{args.output_path}'? [y/n]")
                 choice = input("> ")
                 if choice == 'y' or choice == 'Y':
-                    print("created folder")
+                    mkdir(args.output_path)
+                    print("The folder has been created.")
                 else:
                     print("Output folder must have been specified.")
 
