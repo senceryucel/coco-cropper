@@ -1,5 +1,4 @@
 __author__ = 'senceryucel'
-
 from coco_cropper import CocoCropper
 import argparse
 

@@ -1,9 +1,4 @@
-"""
-COCO DATASET - IMAGE CROPPER
-AUTHORED BY SENCER YUCEL - AUGUST 2023
-"""
 __author__ = 'senceryucel'
-
 from PIL import Image
 import cv2
 import json
