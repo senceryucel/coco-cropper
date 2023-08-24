@@ -58,10 +58,13 @@
 
 # Usage
 
-#### 1-) Clone the repository:
+#### 0-) Download the COCO dataset with the annotations json from below link if you do not have them yet:
+    https://cocodataset.org/#download
+
+#### 1-) Clone this repository:
     git clone https://github.com/senceryucel/coco-cropper
 
-#### 2-) Navigate into the project folder:
+#### 2-) Navigate into the folder:
     cd coco-cropper
     
 #### 3-) Download prerequisites:
