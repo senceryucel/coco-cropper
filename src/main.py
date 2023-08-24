@@ -1,5 +1,5 @@
 __author__ = 'senceryucel'
-from coco_cropper import CocoCropper
+from src.coco_cropper import CocoCropper
 import argparse
 
 if __name__ == "__main__":

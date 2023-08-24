@@ -125,7 +125,6 @@ class CocoCropper:
             img = Image.open("{}/{}".format(self.input_dataset_path, file_name))
         except FileNotFoundError as e:
             return
-        print("y")
         im = cv2.imread("{}/{}".format(self.input_dataset_path, file_name))
         img_h, img_w = im.shape[:2]
         x_y_width_height = annotation["bbox"]
@@ -163,7 +162,7 @@ class CocoCropper:
         data = json.load(f)
         print("Read successfully.")
 
-        print("Started. Len = {}".format(len(data["annotations"])))
+        print("Starting... # of annotations in json file: {}".format(len(data["annotations"])))
         for c, annotation in enumerate(data["annotations"]):
             if c % 100000 == 0:
                 print(c)
