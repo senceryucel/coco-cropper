@@ -68,12 +68,12 @@
     python3 -m pip install -r requirements.txt
     
 #### 4-) Run the script with the -h flag to see how to configure it: 
-    python src/main.py -h
+    python3 src/main.py -h
 
 <br>
 
 ### Example usage
-    python src/main.py -ij ~/path_to/instances_train2017.json -id ~/path_to/train2017 -o ~/path_to/outputs/ -m 0.12 -ma 16384 -mw 96 -mh 96 -c all
+    python3 src/main.py -ij ~/path_to/instances_train2017.json -id ~/path_to/train2017 -o ~/path_to/outputs/ -m 0.12 -ma 16384 -mw 96 -mh 96 -c all
 
 
 <br>
